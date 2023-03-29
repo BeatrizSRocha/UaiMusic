@@ -7,13 +7,13 @@ body{
 	text-align: center;
 	background: #CCC;
 	font-family: Courier New, Helvetica, Arial;
-	margin: 0 auto;
+	
 }
 
 /*Layout*/
 #primeiro{
 	width: 920px;
-	margin: 0 auto;
+	margin: auto;
 	padding: 15px;
 }
 #cabecalho{
@@ -51,7 +51,11 @@ body{
 	color: black;
 	text-align: left;
 	background: white;
-	float: left;
+	/* float: left; */
+}
+.paragrafo {
+	margin:5%;
+	
 }
 img{
 	margin-top: auto;
